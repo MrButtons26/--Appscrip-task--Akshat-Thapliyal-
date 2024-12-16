@@ -1,7 +1,6 @@
 import { productDetails } from "@/utils/SeederData"
 import Image from "next/image"
 import style from './productShowCase.module.css'
-import heart from '@/public/icons/heart.svg'
 export default function ProductCard():React.ReactElement{
     return <div className={style['product-card-container']}>
         {productDetails.map((el,index)=><div key={index}>
