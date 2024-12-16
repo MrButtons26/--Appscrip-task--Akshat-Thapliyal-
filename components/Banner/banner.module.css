@@ -1,0 +1,17 @@
+.banner{
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #EB4C6B;
+    font-family: interFont;
+    font-weight:100;
+    font-size: 12px;
+    align-items: center;
+}
+
+.banner > div {
+
+    display: flex;
+    gap: 5px;
+}

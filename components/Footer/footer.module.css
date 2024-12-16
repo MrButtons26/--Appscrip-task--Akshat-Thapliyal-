@@ -1,0 +1,219 @@
+.footer{
+    font-family: interFont;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    color:var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    padding: 50px 30px 30px 25px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footer-subsection-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-bottom: 25px;
+    border-bottom: 1px solid; /* Set the border width */
+    border-image: linear-gradient(90deg, var(--primary-bg-color) 5%, var( --border-color) 20%, var( --border-color)  80%, var(--primary-bg-color) 95%)1;
+}
+
+.footer-subsection-one div:first-child{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.footer-subsection-one div:first-child > h2{
+    align-self: flex-start;
+    font-size: 18px;
+    font-weight: 700;
+    }
+.footer-subsection-one div:first-child > h3{
+        align-self: flex-start;
+        font-size: 16px;
+        font-weight: 500;
+     }
+    
+    .footer-subsection-one  div:first-child > form{
+        display: flex;
+        gap: 8px;
+        margin-top: 20px;
+         }  
+        .footer-subsection-one div:first-child > form > input{
+         border: none;
+         width: 380px;
+         height: 40px;    
+        }
+        .footer-subsection-one div:first-child > form >  button{
+            border: 0.5px solid var( --border-color) ;
+            color: var( --border-color) ;
+            min-width: 184px;
+            height: 40px;    
+            background-color: var(--primary-bg-color);
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight:500;
+           }
+
+          
+.footer-subsection-one div:last-child > h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    }
+
+.footer-subsection-one div:last-child > h3{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;
+     }
+.footer-subsection-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
+ }
+.footer-subsection-two > div   {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.footer-subsection-two > div > h3  {
+    font-size: inherit;
+    margin-bottom: 15px;
+}
+.footer-subsection-two > div > h2  {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.footer-subsection-two > div > ul  {
+    list-style: none;
+}
+.footer-subsection-two > div > div:last-child  {
+  list-style: none;
+  display: flex;
+   gap: 6px;
+}
+.footer-subsection-two > ul {
+    list-style: none;
+ }
+.footer-subsection-two > ul > h2{
+        font-size: 18px;
+        font-weight:700;   
+        margin-bottom: 15px;
+     }
+     .footer-subsection-two > ul > li {
+        font-size: 16px;
+        font-weight: 300;   
+        margin-bottom: 10px;
+     }
+     .contact-info{
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+     .contact-info >h2 >span{
+        font-size:14px;
+        font-weight: 400;
+        margin-left: 2px;
+     }
+     .currency{
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        margin-bottom: 18px;
+     }
+     @media screen and (max-width:1350px) {
+        .footer{
+            padding: 50px 0px 30px 0px;
+            gap:10px;
+        }
+        .footer-subsection-one{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom:0px;
+        }
+        .footer-subsection-one div:first-child > form{
+            margin-top: 0px;
+           }
+        .footer-subsection-one div:first-child > form > input{
+            width: 180px; 
+           }
+           .footer-subsection-one div:first-child > form >  button{
+            min-width: 140px;
+           }
+           .footer-subsection-one div:last-child > h2{
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 18px;
+            }
+        
+        .footer-subsection-one div:last-child > h3{
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 15px;
+             }
+             .transaction-header{
+               display: none;
+             }
+             .footer-subsection-two{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                gap: 100px;
+             }
+             .footer-subsection-two{
+                display:block;
+             }
+             .footer-subsection-two > ul {
+              width: 100%;
+              padding: 0px;
+             }
+             .footer-subsection-two > ul >h2 {
+                text-align: center;
+               }
+             .footer-sub-heading{
+             width: 100%;
+             text-align: center;
+             }
+             .payment-gateway-heading{
+                padding-left: 20px;
+             }
+             .payment-gateway{
+                padding-left: 20px;
+             }
+             .footer-subsection-one div:last-child > h2{
+                margin-bottom: 10px;
+                }
+            
+            .footer-subsection-one div:last-child > h3{
+      
+                    margin-bottom:10px;
+                 }
+                 .footer-subsection-two > div > h3  {
+                    font-size: inherit;
+                    margin-bottom: 10px;
+                }
+                .footer-subsection-two > div > h2  {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+                .currency > h2{
+                    font-size: 16px;
+                 }
+                 .currency > img{
+                    height: 12px;
+                    width: 12px;
+                 }
+                 .currency::before{
+                    content: 'CURRENCY';
+                    font-weight: 700;
+                 }
+     }

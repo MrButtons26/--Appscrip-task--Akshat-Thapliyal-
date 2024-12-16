@@ -1,0 +1,53 @@
+.herosection{ 
+    font-family: simplonNorm;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.herosection > div{ 
+  
+    display: flex;
+    gap: 4px;
+    margin-left: 10px;
+}
+.herosection > div > button{ 
+ font-family: interFont;
+ font-size: 14px;
+ font-weight: 500;
+   background-color: white;
+   border: none;
+   width: fit-content;
+   color: rgba(177, 174, 174, 0.774);
+}
+.herosection > h2{
+text-align: center;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 1px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.herosection>h3{
+    font-size: 20px;
+    font-weight: 100;
+    align-self: center;
+    max-width: 700px;
+    text-align: center;
+}
+
+@media screen and (max-width: 620px) {
+    .herosection > h2{
+  
+        font-size: 26px;
+       
+        }
+        .herosection>h3{
+            font-size: 16px;
+            padding: 0px 10px 0px 10px;
+            text-align:justify
+           
+        }
+  }
